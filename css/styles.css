@@ -379,7 +379,61 @@ header {
     color: #2C2C2C;
     margin: 20px 0;
 }
-.first-section_title-img {
+
+
+
+.block {
+    margin-bottom: 100px;
 }
-.first-section_info-img {
+.rent_wrap {
+    background: url(../images/rent_bg.png);
+    border-radius: 40px;
+    padding: 140px 50px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.rent_info {
+    width: calc(50% - 22px);
+}
+.rent_labels {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 11px;
+}
+.rent_label {
+    padding: 7px 10px;
+    display: block;
+    background: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #080808;
+}
+.rent_title {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.rent_text {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+
+
+
+
