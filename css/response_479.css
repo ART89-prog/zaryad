@@ -1,0 +1,87 @@
+@media (max-width: 479px) {
+
+
+    .header_title {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .header_text {
+        font-size: 16px;
+    }
+    .button-scroll {
+        bottom: 500px;
+    }
+    .header_items > * {
+        width: 100%;
+    }
+    header {
+        padding: 20px 0;
+    }
+    .header_top {
+        margin-bottom: 35px;
+    }
+    .block .block_head .title, 
+    .block2 .block_head .title {
+        font-size: 22px;
+    }
+    .service_item-title,
+    .stage_item-title {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .service_item-text,
+    .stage_item-text {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .service_items {
+        gap: 15px;
+    }
+    .block2 .block_head .text {
+        font-size: 18px;
+    }
+    .before_after-list-title {
+        font-size: 16px;
+    }
+    ul li {
+        font-size: 16px;
+    }
+    .accordion_item-head {
+        padding: 10px 15px;
+    }
+    .accordion_item-title {
+        font-size: 17px;
+    }
+    .reviews_item-name {
+        font-size: 17px;
+    }
+    .reviews_item {
+        padding: 15px;
+    }
+    .reviews_item-text p + p {
+        margin-top: 20px;
+    }
+    footer {
+        padding: 30px 0px 0px;
+    }
+    .footer_top > * {
+        width: 100%;
+    }
+    .footer_contacts .footer-title {
+        margin-bottom: 15px;
+    }
+    .footer_contacts .footer_contacts-phone {
+        margin-bottom: 15px;
+    }
+    .footer_bottom-logo {
+        display: none;
+    }
+    .menu_open header .close_btn {
+        top: 25px;
+    }
+
+
+
+
+   
+}

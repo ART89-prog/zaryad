@@ -1,0 +1,141 @@
+@media print, (max-width: 767px) {
+
+    .header_img {
+        display: none;
+    }
+    .header_info form .line .field {
+        display: flex;
+        flex-direction: column;
+    }
+    .header_bottom form .line input {
+        width: 100%;
+    }
+    .header_bottom form .btn_callback {
+        width: 100%;
+    }
+    .header_bottom {
+        padding: 0;
+    }
+    .header_top {
+        margin-bottom: 50px;
+    }
+    .header_title {
+        font-size: 30px;
+    }
+    .header_text {
+        font-size: 18px;
+        max-width: calc(100% - 100px);
+    }
+    .header_bottom {
+        margin-bottom: 40px;
+    }
+    .header_item-title br {
+        display: none;
+    }
+    .header_items > * {
+        gap: 12px;
+    }
+    .header_item-title {
+        font-size: 16px;
+    }
+    .block .block_head .title, 
+    .block2 .block_head .title {
+        font-size: 26px;
+    }
+    .block .block_head .text {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .block_head {
+        margin-bottom: 20px;
+    }
+    .service_items > * {
+        width: 100%;
+    }
+    .block2 .block_head .text {
+        font-size: 20px;
+    }
+    .advantage_item-img, 
+    .videos_item {
+        width: 100%;
+        height: auto;
+    }
+    .before_after-list-title {
+        font-size: 18px;
+    }
+    .callback_form {
+        width: 100%;
+        padding: 25px 20px;
+    }
+    .callback_img1,
+    .callback_img2,
+    .callback_img3 {
+        display: none;
+    }
+    .fancybox__content>.carousel__button.is-close {
+        top: -40px;
+        right: 0;
+    }
+    .modal_text {
+        font-size: 18px;
+    }
+    .modal2 {
+        padding: 25px 20px;
+    }
+    .advantage_item + .advantage_item {
+        margin-top: 25px;
+    }
+    .benefits_items > * {
+        width: 100%;
+    }
+    .benefits_item-title {
+        font-size: 18px;
+    }
+    .benefits_item-text {
+        font-size: 16px;
+    }
+    .block, 
+    .block2 {
+        padding: 50px 0;
+    }
+    .reviews_item {
+        padding: 25px;
+    }
+    .swiper-horizontal > .swiper-pagination-bullets, 
+    .swiper-pagination-bullets.swiper-pagination-horizontal, 
+    .swiper-pagination-custom, .swiper-pagination-fraction {
+        bottom: -25px;
+    }
+    .footer_top {
+        margin-bottom: 30px;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .footer_top > * {
+        width: calc(100% / 2 - 10px);
+    }
+    footer .btn_callback {
+        width: 100%;
+    }
+    .button-scroll {
+        right: 20px;
+        bottom: 330px;
+    }
+    .before figcaption,
+    .after figcaption {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

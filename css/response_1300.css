@@ -1,0 +1,12 @@
+@media print, (max-width: 1300px) {
+
+
+    .header_contacts-phone {
+        display: none;
+    }
+
+
+
+
+}
+
