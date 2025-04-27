@@ -110,7 +110,7 @@ input[type=number] {
     --font_size: 16px;
     --font_size_title: 40px;
     --font_family: 'Jost';
-    --bg: #FFFBF5;
+    --bg: #fff;
 }
 
 
@@ -199,7 +199,7 @@ button {
 
 .cont {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -276,3 +276,110 @@ button {
 
 
 
+/* HEADER */
+
+header {
+    padding: 100px 0 50px;
+}
+.header_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header_contacts {
+    display: flex;
+    gap: 20px;
+}
+.header_phone {
+    padding: 13px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 42px;
+    background: #E7DDF3;
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.header_callback {
+    padding: 13px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 42px;
+    background: #8557C1;
+    border-radius: 5px; 
+    text-decoration: none; 
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E7DDF3;
+}
+
+
+
+
+
+.first-section {
+    margin-bottom: 242px;
+}
+.first-section .cont {
+    position: relative;
+}
+.first-section_img {
+    position: absolute;
+    left: -553px;
+    top: -117px;
+}
+.first-section_info {
+    margin-left: 38%;
+    margin-top: 32px;
+}
+.first-section_title-top {
+    display: flex;
+    align-items: end;
+}
+.first-section_title {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    color: #161616;
+    max-width: 607px;
+}
+.first-section_title span {
+    white-space: nowrap;
+    margin-left: 21px;
+    display: block;
+}
+.first-section_text {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2C2C2C;
+    margin: 20px 0;
+}
+.first-section_title-img {
+}
+.first-section_info-img {
+}
