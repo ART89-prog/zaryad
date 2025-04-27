@@ -348,6 +348,7 @@ header {
 .first-section_info {
     margin-left: 38%;
     margin-top: 32px;
+    margin-bottom: 242px;
 }
 .first-section_title-top {
     display: flex;
@@ -435,6 +436,92 @@ header {
 
 
 
+
+.card {
+    margin-bottom: 140px;
+}
+.card_title {
+    max-width: 700px;
+    margin-bottom: 40px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    color: #161616;
+}
+.card_items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card_items > * {
+    width: calc(100%/4 - 12px);
+    padding: 35px 20px 40px;
+    background: #E7DDF3;
+    box-shadow: 0px 11px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+.card_item-title {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: -0.7px;
+    color: #161616;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.card_item-prices {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card_item-prices > * {
+    width: calc(100%/3 - 7px);
+}
+.card_item-price-title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2C2C2C;
+    margin-bottom: 4px;
+}
+.card_item-price-text {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #2C2C2C;
+}
+.card_item-btns {
+    display: flex;
+    gap: 10px;
+}
+.card_item-btn {
+    text-decoration: none;
+    padding: 7px 10px;
+}
+.card_item-button {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 14px 65px;
+    background: #8557C1;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    color: #E7DDF3;
+}
+
+
+
 .step_wrap {
     padding: 50px 30px 100px;
     background: #8557C1;
@@ -504,6 +591,14 @@ header {
     font-size: 16px;
     line-height: 26px;
     color: #2C2C2C;
+}
+.step_item-text a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
 }
 .step_item:nth-child(1) .step_item-img {
     position: absolute;
@@ -598,3 +693,295 @@ header {
 
 
 
+.faq_title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    color: #161616;
+    margin-bottom: 50px;
+}
+.tabs_container .tabs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.tabs_container .tabs button {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #8557C1;
+    transition: all .2s;
+    padding: 14px 35px;
+    background: #F1F2F3;
+    border-radius: 10px;
+}
+.tabs_container .tabs button:hover {
+    color: #fff;   
+    background: #8557C1;    
+}
+.tabs_container .tabs button.active {
+    color: #fff;   
+    background: #8557C1;  
+}
+.accordion_item {
+    margin-bottom: 12px; 
+    transition: all 0.4s;   
+    background: rgba(255, 255, 255, 0.002);
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+.accordion_item:last-child {
+    margin-bottom: 0;
+}
+.accordion_item .head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    padding: 19px 20px;
+    gap: 12px;
+}
+.accordion_item .head .title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 35px;
+    color: #000000;
+    transition: all .4s;
+}
+.accordion_item .data {
+    padding: 0 20px 20px 20px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #2c2c2c; 
+    transition: all .6s;
+}
+.accordion_item .data ol {
+    margin-left: 20px;
+}
+.accordion_item .data ol li {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #2c2c2c; 
+}
+.accordion_item .data ol li + li {
+    margin-top: 8px;
+}
+.faq .tab_content.active {
+    visibility: visible;
+    overflow: visible;
+    height: auto;
+    transition: opacity .5s linear;
+    pointer-events: auto;
+    opacity: 1;
+    display: block;
+}
+.faq .tab_content {
+    position: relative;
+    visibility: hidden;
+    overflow: hidden;
+    height: 0;
+    pointer-events: none;
+    opacity: 0;
+    display: none;
+}
+.accordion .accordion_item .data {
+    display: none;
+}
+.accordion .accordion_item.active .data {
+    display: block; 
+}
+.accordion .accordion_item.active .icon img {
+    transform: rotate(180deg);
+}
+
+
+
+
+
+.contact {
+    margin-bottom: 50px;    
+}
+.contact .cont {
+    position: relative;
+}
+.contact_bg {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    width: 256px;
+    height: 203px;
+}
+.contact_bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+ .conact_wrap {
+    padding: 100px 50px 80px;
+    background: #8557C1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+.contact_title {
+    margin-bottom: 60px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.6px;
+    color: #FFFFFF;
+}
+.contact_items {
+    margin-bottom: 60px;
+}
+.contact_item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;    
+}
+.contact_item + .contact_item  {
+    margin-top: 20px;
+}
+.contact_item-icon {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E7DDF3;
+    border-radius: 6px;
+}
+.contact_button {
+    padding: 18px 55px;
+    background: #F4BC3D;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    max-width: 301px;
+}
+.contact .map_wrap {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    width: 586px;
+    height: 350px;
+    transform: translateZ(0);
+}
+#map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+footer {
+    margin-bottom: 40px; 
+}
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.footer_logo {
+    margin-bottom: 20px;
+    display: block;
+}
+.footer_soc {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+.footer_soc a {
+    width: 42px;
+    height: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E7DDF3;
+}
+.footer_name {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #686868;
+}
+.footer_items {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 25px;
+}
+.footer_items > * {
+    width: calc(100%/2 - 40px);
+}
+.footer_item-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+}
+.footer_item-time {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+.footer_item-text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #777777;
+}
+.footer_item-tel {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: block;
+}
+.footer_right-text {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #9E9E9E;
+}
