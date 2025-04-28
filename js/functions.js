@@ -11,10 +11,6 @@ $(() => {
 	$(':root').css('--scroll_width', widthScroll() + 'px')
 
 
-	// Маска ввода
-	$('input[type=tel]').inputmask('+7 (999) 999-99-99')
-
-
 
 	Fancybox.defaults.autoFocus = false
 	Fancybox.defaults.trapFocus = false
