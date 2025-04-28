@@ -293,6 +293,7 @@ header:before {
     right: 0;
     top: 0;
     background: url(../images/homepage.svg);
+    z-index: -1;
 }
 .header_wrap {
     display: flex;
@@ -800,9 +801,13 @@ header:before {
 .advantages_item:nth-child(2) img,
 .advantages_item:nth-child(9) img {
     border-radius: 50%;
+    max-width: 100%;
+    height: auto;
 }
 .advantages_item:nth-child(8) img {
     border-radius: 45px;
+    max-width: 100%;
+    height: auto;
 }
 .advantages_item-nember {
     width: 69px;
@@ -1029,6 +1034,7 @@ header:before {
     width: 586px;
     height: 350px;
     transform: translateZ(0);
+    z-index: 1;
 }
 #map {
     position: absolute;

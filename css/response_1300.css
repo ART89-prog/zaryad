@@ -1,11 +1,51 @@
 @media print, (max-width: 1300px) {
 
-
-    .header_contacts-phone {
-        display: none;
+    .first-section_img {
+        position: absolute;
+        left: -215px;
+        top: -115px;
+        width: 705px;
+        height: 526px;
     }
-
-
+    .first-section_title-img {
+        width: 171px;
+        height: 44px;
+    } 
+    .first-section_title-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .first-section_title span {
+        margin-left: 0;
+    }
+    .first-section_info-img {
+        width: 340px;
+        height: 140px;
+    }
+    .first-section_info {
+        margin-bottom: 110px;
+    }
+    .card_items > * {
+        width: calc(100% / 2 - 8px);
+    }
+    .card_item-btns {
+        justify-content: space-between;
+    }
+    .card_item-btns > * {
+        width: calc(100%/2 - 10px);
+    }
+    .card_item-img {
+        margin: 0 auto;
+    }
+    .contact .map_wrap {
+        width: 484px;
+    }
+    .contact_bg {
+        left: 160px;
+    }
+    header {
+        padding-top: 5px;
+    }
 
 
 }
