@@ -1,6 +1,11 @@
 @media print, (max-width: 1023px) {
  
-   
+    .first-section_img {
+        display: none;
+    }
+    .first-section_info {
+        margin-left: 50px;
+    }
 
     
 
