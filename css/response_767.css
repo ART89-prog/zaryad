@@ -1,6 +1,8 @@
 @media print, (max-width: 767px) {
 
-   
+    .card_items > * {
+        width: 100%;
+    }
 
 
 

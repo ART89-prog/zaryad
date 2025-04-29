@@ -644,6 +644,7 @@ header:before {
     padding: 55px 30px 100px;
     background: #8557C1;
     position: relative;
+    border-radius: 40px;
 }
 .step_title {
     text-align: center;
@@ -802,12 +803,17 @@ header:before {
 .advantages_item:nth-child(9) img {
     border-radius: 50%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
+}
+.advantages_item:nth-child(8) .advantages_item-img {
+    height: 100%;
 }
 .advantages_item:nth-child(8) img {
     border-radius: 45px;
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .advantages_item-nember {
     width: 69px;
