@@ -36,8 +36,8 @@ $(() => {
 	fakeResize = false
 	fakeResize2 = true
 
-	if (document.body.clientWidth < 360) {
-		document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
+	if (document.body.clientWidth < 390) {
+		document.getElementsByTagName('meta')['viewport'].content = 'width=390, user-scalable=no'
 	}
 
 
@@ -119,7 +119,7 @@ window.addEventListener('resize', function () {
 		if (!fakeResize2) {
 			fakeResize2 = true
 
-			if (windowW < 360) document.getElementsByTagName('meta')['viewport'].content = 'width=360, user-scalable=no'
+			if (windowW < 390) document.getElementsByTagName('meta')['viewport'].content = 'width=390, user-scalable=no'
 		} else {
 			fakeResize = false
 			fakeResize2 = true

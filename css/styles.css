@@ -185,7 +185,7 @@ button {
     overflow: hidden;
     flex-direction: column;
 
-    min-width: 360px;
+    min-width: 39 0px;
     min-height: 100%;
     z-index: 1;
 
@@ -361,7 +361,9 @@ header:before {
     width: 100%;
     height: 100%;
 }
-
+.header_logo-mob {
+    display: none;   
+}
 
 
 
@@ -419,7 +421,6 @@ header:before {
 }
 .first-section_title-img img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 .first-section_title span {
@@ -504,6 +505,9 @@ header:before {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+.rent_img-mob {
+    display: none;
 }
 
 
@@ -792,6 +796,9 @@ header:before {
     flex-direction: column;
     justify-content: space-between;
 }
+.advantages_item-img {
+    height: 100%;
+}
 .advantages_item:nth-child(2),
 .advantages_item:nth-child(8),
 .advantages_item:nth-child(9) {
@@ -803,7 +810,6 @@ header:before {
 .advantages_item:nth-child(9) img {
     border-radius: 50%;
     max-width: 100%;
-    height: 100%;
 }
 .advantages_item:nth-child(8) .advantages_item-img {
     height: 100%;
@@ -876,6 +882,7 @@ header:before {
     color: #fff;   
     background: #8557C1;  
 }
+
 .accordion_item {
     margin-bottom: 12px; 
     transition: all 0.4s;   
@@ -981,6 +988,7 @@ header:before {
     align-items: center;
     justify-content: space-between;
     gap: 25px;
+    border-radius: 40px;
 }
 .contact_title {
     margin-bottom: 60px;
@@ -1179,16 +1187,29 @@ footer {
 }
 .modal-bg1 {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: -110px;
+    left: 0;
     z-index: -1;
+    width: 758px;
+    height: 694px;
+}
+.modal-bg1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .modal-bg2 {
     position: absolute;
     top: -150px;
     right: 100px;
     z-index: -1;
+    width: 150px;
+    height: 150px;
+}
+.modal-bg2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .callback_form-title {
     font-family: "Raleway";
@@ -1239,4 +1260,25 @@ footer {
     fill: #fff;
     width: 16px;
     height: 20px;
+}
+
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 200px;
+    right: 0;
+    z-index: 999;
+}
+.widget a {
+    text-decoration: none;
+    display: block;
+}
+.widget a img {
+    display: block;
+}
+
+.toolbar {
+    display: none;
 }

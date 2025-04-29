@@ -1,6 +1,51 @@
 @media (max-width: 479px) {
 
-
+    .first-section_info {
+        margin-top: 10px;
+    }
+    .first-section_title-img {
+        width: 136px;
+        height: 35px;
+    }
+    .first-section_title span {
+        margin-left: 16px;
+        line-height: 1.8;
+    }
+    .first-section_info-img {
+        width: 100%;
+        height: auto;
+    }
+    .block {
+        margin-bottom: 80px;
+    }
+    .first-section_info {
+        margin-bottom: 80px;
+    }
+    .rent_wrap {
+        padding: 60px 10px 40px;
+    }
+    .step {
+        margin-bottom: 80px;
+    }
+    .advantages_item-nember {
+        width: 42px;
+        height: 42px;
+        font-size: 17px;
+    }
+    .advantages {
+        margin-bottom: 80px;
+    }
+    header:before {
+        width: 211px;
+        height: 195px;
+    }
+    .contact_item {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .modal {
+        padding: 20px 10px;
+    }
     
 
 

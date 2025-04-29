@@ -46,6 +46,12 @@
     header {
         padding-top: 5px;
     }
+    .step_item-text br {
+        display: none;
+    }
+    .footer_right-text br {
+        display: none;
+    }
 
 
 }

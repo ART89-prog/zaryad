@@ -41,12 +41,50 @@
 
 <body>
 	<div class="wrap">
+
+		<div class="widget">
+			<a href="#">
+				<img src="images/insta2.svg" alt="">
+			</a>
+			<a href="#">
+				<img src="images/what2.svg" alt="">
+			</a>
+			<a href="#">
+				<img src="images/vk2.svg" alt="">
+			</a>
+			<a href="#">
+				<img src="images/telegram2.svg" alt="">
+			</a>
+		</div>
+
+		<div class="toolbar">
+			<a href="#">
+				<img src="images/what3.svg" alt="">
+				<span>WhatsApp</span>
+			</a>
+			<a href="#">
+				<img src="images/telegram3.svg" alt="">
+				<span>Telegram</span>
+			</a>
+			<a href="#">
+				<img src="images/vk3.svg" alt="">
+				<span>Вконтакте</span>
+			</a>
+			<a href="#">
+				<img src="images/insta3.svg" alt="">
+				<span>Instagram</span>
+			</a>
+		</div>
+
 		<div class="main">
 			<header>
 				<div class="cont">
 					<div class="header_wrap">
 						<a href="index.html" class="header_logo">
 							<img src="images/logo.svg" alt="">
+						</a>
+						<a href="index.html" class="header_logo-mob">
+							<img src="images/logo-mob.svg" alt="">
 						</a>
 						<div class="header_contacts">
 							<a href="tel:79994243333" class="header_phone">+7 (999) 424-33-33</a>
@@ -58,10 +96,7 @@
 
 
 			<section class="first-section block">
-				<div class="cont">
-					<div class="first-section_img">
-						<img src="images/first-section-img.png" alt="" loading="lazy">
-					</div>
+				<div class="cont">					
 					<div class="first-section_info">
 						<div class="first-section_title">
 							<div class="first-section_title-top">
@@ -73,10 +108,17 @@
 							<div class="first-section_title-bottom">возможности</div>					
 						</div>
 						<div class="first-section_text">Бери вело-бфйк в прокат и доставляй быстрее!</div>
+						<div class="first-section_img">
+							<div id="scene">
+								<div data-depth="0.2">
+									<img src="images/first-section-img.png" alt="" loading="lazy">
+								</div>
+							</div>							
+						</div>	
 						<div class="first-section_info-img">
 							<img src="images/first-section-img2.png" alt="" loading="lazy">
 						</div>	
-					</div>					
+					</div>	
 				</div>
 			</section>
 
@@ -91,6 +133,9 @@
 							</div>
 							<div class="rent_title">Аренда с выкупом</div>
 							<div class="rent_text">Ваш путь к собственному транспорту. Идеально для тех, кто хочет приобрести личный велосипед с минимальными вложениями.</div>
+							<div class="rent_img-mob">
+								<img src="images/rent-img-mob.png" alt="">
+							</div>
 							<div class="rent_img">
 								<img src="images/rent_img1.svg" alt="" loading="lazy">
 							</div>
@@ -331,259 +376,269 @@
 			
 			<section class="faq block">
 				<div class="cont">
-					<div class="faq_title">Частые вопросы</div>
+					<div class="faq_title">Частые вопросы</div>					
 					<div class="tabs_container">
 						<div class="tabs">
 							<button data-content="#tab1" data-level="level1" class="active">Аренда без выкупа</button>
 							<button data-content="#tab2" data-level="level1">Аренда с правом выкупа</button>
-							<button data-content="#tab3" data-level="level1">Общее</button>
-						</div>
+							<button data-content="#tab3" data-level="level1">Аренда с правом выкупа</button>
 
-						<div class="tab_content level1 active" id="tab1">
-							<div class="accordion">
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
+							<div class="tab_content level1 active" id="tab1">
+								<div class="accordion">
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит аренда без выкупа?</div>										
 										</div>
-										<div class="title">Как происходит аренда без выкупа?</div>										
+										<div class="data">
+											<ol>
+												<li>Стороны заключают договор аренды.</li>
+												<li>Арендатор уплачивает арендную стоимость вело-байка, указанную в договоре.</li>
+												<li>После оплаты по договору, Вы используете вело-байк в своих целях. </li>
+												<li>По окончания договора, возращаете вело-байка Арендатору, в таком же состояние в котором брали (фото и видео отчет).</li>
+											</ol>
+										</div>
 									</div>
-									<div class="data">
-										<ol>
-											<li>Стороны заключают договор аренды.</li>
-											<li>Арендатор уплачивает арендную стоимость вело-байка, указанную в договоре.</li>
-											<li>После оплаты по договору, Вы используете вело-байк в своих целях. </li>
-											<li>По окончания договора, возращаете вело-байка Арендатору, в таком же состояние в котором брали (фото и видео отчет).</li>
-										</ol>
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Что нужно для аренды без выкупа?</div>										
+										</div>
+										<div class="data">
+											<ol>
+												<li>Паспорт гражданина РФ</li>
+												<li>Возраст от 18 лет</li>
+												<li>Внесение первоначального платежа</li>
+											</ol>
+										</div>
 									</div>
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Что запрещено в аренде без выкупа?</div>										
+										</div>
+										<div class="data">
+											<ol>
+												<li>Передоверие вело-байка другим лицам</li>
+												<li>Управление вело-байка в нетрезвом состоянии (алкогольное и наркотическое опьянение)</li>
+												<li>Ухудшение технического состояния и внешнего вида арендуемого вело-байка</li>
+												<li>Нарушение ПДД (подвергающие опастности себя и окружающих)</li>
+												<li>Разбирать, переставлять и производить замену узловых агрегатов, в том числе в аккумуляторе</li>
+												<li>Выезд за пределы Краснодара (возможен по предварительной договорености)</li>
+												<li>Не использовать для езды по бездорожью или в целях обучения вождению, не сдавать в субаренду</li>
+												<li>Мыть на автомойках, а также из моек высокого давления</li>
+												<li>Запрещена продажа и залог вело-байка, так-как данные действия, влекут к уголовной ответствености (ст. 158, cт. 159, cт. 160).</li>
+											</ol>
+										</div>
+									</div>								
 								</div>
+							</div>
 
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
+							
+							<div class="tab_content level1" id="tab2">
+								<div class="accordion">
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит аренда с правом выкупа?</div>										
 										</div>
-										<div class="title">Что нужно для аренды без выкупа?</div>										
+										<div class="data">
+											<ol>
+												<li>Стороны заключают договор аренды с правом выкупа.</li>
+												<li>Арендатор уплачивает выкупную стоимость вело-байка, указанную в договоре.</li>
+												<li>После полной выплаты по договору, Вы становитесь правообладателем вело-байка.</li>
+											</ol>
+										</div>
 									</div>
-									<div class="data">
-										<ol>
-											<li>Паспорт гражданина РФ</li>
-											<li>Возраст от 18 лет</li>
-											<li>Внесение первоначального платежа</li>
-										</ol>
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Что нужно для аренды с правом выкупа?</div>										
+										</div>
+										<div class="data">
+											<ol>
+												<li>Паспорт гражданина РФ</li>
+												<li>Возраст от 18 лет</li>
+												<li>Внесение первоначального платежа</li>
+											</ol>
+										</div>
 									</div>
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Что запрещено в аренде с правом выкупа?</div>										
+										</div>
+										<div class="data">
+											<ol>
+												<li>Передоверие вело-байка другим лицам</li>
+												<li>Управление вело-байком в нетрезвом состоянии (алкогольное и наркотическое опьянение)</li>
+												<li>Ухудшение технического состояния и внешнего вида арендуемого вело-байка</li>
+												<li>Нарушение ПДД (подвергающие опастности себя и окружающих)</li>
+												<li>Разбирать, переставлять и производить замену узловых агрегатов, в том числе в аккумуляторе</li>
+												<li>Выезд за пределы Краснодара (возможен по предварительной договорености)</li>
+												<li>Не использовать для езды по бездорожью или в целях обучения вождению, не сдавать в субаренду</li>
+												<li>Мыть на автомойках, а также из моек высокого давления</li>
+												<li>Запрещена продажа и залог вело-байка, которое находится в Аренде.</li>
+											</ol>
+										</div>
+									</div>								
 								</div>
+							</div>
 
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
+
+							<div class="tab_content level1" id="tab3">
+								<div class="accordion">
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит оплата?</div>										
 										</div>
-										<div class="title">Что запрещено в аренде без выкупа?</div>										
+										<div class="data">
+											<p>Оплата происходит в офисе наличкой, либо онлайн по QR-code или через СПБ по номеру телефону который указан в реквизитах.</p>
+										</div>
 									</div>
-									<div class="data">
-										<ol>
-											<li>Передоверие вело-байка другим лицам</li>
-											<li>Управление вело-байка в нетрезвом состоянии (алкогольное и наркотическое опьянение)</li>
-											<li>Ухудшение технического состояния и внешнего вида арендуемого вело-байка</li>
-											<li>Нарушение ПДД (подвергающие опастности себя и окружающих)</li>
-											<li>Разбирать, переставлять и производить замену узловых агрегатов, в том числе в аккумуляторе</li>
-											<li>Выезд за пределы Краснодара (возможен по предварительной договорености)</li>
-											<li>Не использовать для езды по бездорожью или в целях обучения вождению, не сдавать в субаренду</li>
-											<li>Мыть на автомойках, а также из моек высокого давления</li>
-											<li>Запрещена продажа и залог вело-байка, так-как данные действия, влекут к уголовной ответствености (ст. 158, cт. 159, cт. 160).</li>
-										</ol>
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит выдача вело-байка?</div>										
+										</div>
+										<div class="data">
+											<p>Получение вело-байка происходит в офисе, где необходимо предъявить документы и подписать договор аренды.</p>
+										</div>
 									</div>
-								</div>								
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит решение проблем с вело-байком</div>										
+										</div>
+										<div class="data">
+											<p>Решение проблем с вело-байком происходит через техническую поддержку, которая оказывает консультации и помощь в решении возникающих вопросов.</p>
+										</div>
+									</div>	
+									
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит зарядка вело-байка?</div>										
+										</div>
+										<div class="data">
+											<p>Зарядка вело-байка производится дома от обычной розетки при помощи зарядного устройства (в зависимости от выбранной модели), которое идет в комплекте. Другого типа ЗУ использовать запрещено.</p>
+										</div>
+									</div>	
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит техническое обслуживание вело-байка?</div>										
+										</div>
+										<div class="data">
+											<p>Техническое обслуживание вело-байка происходит в нашем сервисном центре, где есть специалисты, занимающиеся ремонтом и обслуживанием устройств. Если подходит дата ТО, мы вам позвоним и попросим приехать в офис. Также предложим, для Вашего удобства чай и кофе.</p>
+										</div>
+									</div>	
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Что делать в случае поломки вело-байка?</div>										
+										</div>
+										<div class="data">
+											<p>В случае поломки вело-байка необходимо связаться с технической поддержкой, которая назначит время на диагностику устройства. Если устройство сломано по вине Арендатора, то с него удерживается сумма за ремонт вело-байка и деталей которые были заменены.</p>
+										</div>
+									</div>	
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Что делать в случае потери или кражи вело-байка?</div>										
+										</div>
+										<div class="data">
+											<p>В первую очередь незамедлительно обратиться в полицию и связаться с менеджером проката.</p>
+										</div>
+									</div>	
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит возврат залога?</div>										
+										</div>
+										<div class="data">
+											<p>Возврат залога происходит после окончания аренды, если это Аренда с правом выкупа, то идет в счет оплаты вело-байка.</p>
+										</div>
+									</div>	
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Где оставлять и парковать вело-байк?</div>										
+										</div>
+										<div class="data">
+											<p>Парковать только в специально отведенных местах, не нарушая закон остановки и стоянки вело-байка. Не оставлять вело-байк без присмотра, так-как Арендатор несёт полную материальную ответственность за его потерю, кражу или утрату!</p>
+										</div>
+									</div>	
+	
+									<div class="accordion_item">
+										<div class="head">
+											<div class="icon">
+												<img src="images/arrow.svg" alt="">
+											</div>
+											<div class="title">Как происходит возврат вело-байка в случае его неудовлетворительного состояния?</div>										
+										</div>
+										<div class="data">
+											<p>Возврат залога производится после окончания аренды, если это Аренда с правом выкупа, то идет в счет оплаты вело-байка.</p>
+										</div>
+									</div>									
+								</div>
 							</div>
 						</div>
 
-
-						<div class="tab_content level1" id="tab2">
-							<div class="accordion">
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит аренда с правом выкупа?</div>										
-									</div>
-									<div class="data">
-										<ol>
-											<li>Стороны заключают договор аренды с правом выкупа.</li>
-											<li>Арендатор уплачивает выкупную стоимость вело-байка, указанную в договоре.</li>
-											<li>После полной выплаты по договору, Вы становитесь правообладателем вело-байка.</li>
-										</ol>
-									</div>
-								</div>
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Что нужно для аренды с правом выкупа?</div>										
-									</div>
-									<div class="data">
-										<ol>
-											<li>Паспорт гражданина РФ</li>
-											<li>Возраст от 18 лет</li>
-											<li>Внесение первоначального платежа</li>
-										</ol>
-									</div>
-								</div>
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Что запрещено в аренде с правом выкупа?</div>										
-									</div>
-									<div class="data">
-										<ol>
-											<li>Передоверие вело-байка другим лицам</li>
-											<li>Управление вело-байком в нетрезвом состоянии (алкогольное и наркотическое опьянение)</li>
-											<li>Ухудшение технического состояния и внешнего вида арендуемого вело-байка</li>
-											<li>Нарушение ПДД (подвергающие опастности себя и окружающих)</li>
-											<li>Разбирать, переставлять и производить замену узловых агрегатов, в том числе в аккумуляторе</li>
-											<li>Выезд за пределы Краснодара (возможен по предварительной договорености)</li>
-											<li>Не использовать для езды по бездорожью или в целях обучения вождению, не сдавать в субаренду</li>
-											<li>Мыть на автомойках, а также из моек высокого давления</li>
-											<li>Запрещена продажа и залог вело-байка, которое находится в Аренде.</li>
-										</ol>
-									</div>
-								</div>								
-							</div>
-						</div>
-
-
-						<div class="tab_content level1" id="tab3">
-							<div class="accordion">
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит оплата?</div>										
-									</div>
-									<div class="data">
-										<p>Оплата происходит в офисе наличкой, либо онлайн по QR-code или через СПБ по номеру телефону который указан в реквизитах.</p>
-									</div>
-								</div>
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит выдача вело-байка?</div>										
-									</div>
-									<div class="data">
-										<p>Получение вело-байка происходит в офисе, где необходимо предъявить документы и подписать договор аренды.</p>
-									</div>
-								</div>
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит решение проблем с вело-байком</div>										
-									</div>
-									<div class="data">
-										<p>Решение проблем с вело-байком происходит через техническую поддержку, которая оказывает консультации и помощь в решении возникающих вопросов.</p>
-									</div>
-								</div>	
-								
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит зарядка вело-байка?</div>										
-									</div>
-									<div class="data">
-										<p>Зарядка вело-байка производится дома от обычной розетки при помощи зарядного устройства (в зависимости от выбранной модели), которое идет в комплекте. Другого типа ЗУ использовать запрещено.</p>
-									</div>
-								</div>	
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит техническое обслуживание вело-байка?</div>										
-									</div>
-									<div class="data">
-										<p>Техническое обслуживание вело-байка происходит в нашем сервисном центре, где есть специалисты, занимающиеся ремонтом и обслуживанием устройств. Если подходит дата ТО, мы вам позвоним и попросим приехать в офис. Также предложим, для Вашего удобства чай и кофе.</p>
-									</div>
-								</div>	
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Что делать в случае поломки вело-байка?</div>										
-									</div>
-									<div class="data">
-										<p>В случае поломки вело-байка необходимо связаться с технической поддержкой, которая назначит время на диагностику устройства. Если устройство сломано по вине Арендатора, то с него удерживается сумма за ремонт вело-байка и деталей которые были заменены.</p>
-									</div>
-								</div>	
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Что делать в случае потери или кражи вело-байка?</div>										
-									</div>
-									<div class="data">
-										<p>В первую очередь незамедлительно обратиться в полицию и связаться с менеджером проката.</p>
-									</div>
-								</div>	
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит возврат залога?</div>										
-									</div>
-									<div class="data">
-										<p>Возврат залога происходит после окончания аренды, если это Аренда с правом выкупа, то идет в счет оплаты вело-байка.</p>
-									</div>
-								</div>	
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Где оставлять и парковать вело-байк?</div>										
-									</div>
-									<div class="data">
-										<p>Парковать только в специально отведенных местах, не нарушая закон остановки и стоянки вело-байка. Не оставлять вело-байк без присмотра, так-как Арендатор несёт полную материальную ответственность за его потерю, кражу или утрату!</p>
-									</div>
-								</div>	
-
-								<div class="accordion_item">
-									<div class="head">
-										<div class="icon">
-											<img src="images/arrow.svg" alt="">
-										</div>
-										<div class="title">Как происходит возврат вело-байка в случае его неудовлетворительного состояния?</div>										
-									</div>
-									<div class="data">
-										<p>Возврат залога производится после окончания аренды, если это Аренда с правом выкупа, то идет в счет оплаты вело-байка.</p>
-									</div>
-								</div>									
-							</div>
-						</div>
+						
 					</div>
+
+					
+
 				</div>
 			</section>
+
+
+
+		
+
 
 
 
@@ -611,10 +666,10 @@
 						<div class="map_wrap">
 							<div id="map"></div>													
 						</div>  
-					</div>	
-					<div class="contact_bg">
-						<img src="images/contact_bg.svg" alt="" loading="lazy">
-					</div>				
+						<div class="contact_bg">
+							<img src="images/contact_bg.svg" alt="" loading="lazy">
+						</div>		
+					</div>									
 				</div>				
 			</section>
 
@@ -646,7 +701,7 @@
 								<img src="images/whatsapp.svg" alt="" loading="lazy">
 							</a>
 						</div>
-						<div class="footer_name">ИП Мяконьких Сергей Анатольевич <br>ИНН 660406220210</div>
+						<div class="footer_name">ИП Мяконьких Сергей Анатольевич <br><span>ИНН 660406220210</span></div>
 					</div>
 					<div class="footer_right">
 						<div class="footer_items">
@@ -681,7 +736,18 @@
 	</div>
 
 
-	<section class="modal" id="modal_callback">
+	<section class="modal" id="modal_callback">	
+		<div id="scene">
+			<div data-depth="0.6">
+				<div class="modal-bg1">
+					<img src="images/modal-bg1.png" alt="">
+				</div>					
+			</div>
+		</div>
+		
+		<div class="modal-bg2">
+			<img src="images/modal-bg2.png" alt="">
+		</div>
 		<form class="callback_form">
 			<div class="callback_form-title">Оставить заявку</div>
 			<div class="line">
@@ -700,13 +766,7 @@
 					<path d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"></path>
 				</svg>
 			</button>
-		</form>	
-		<div class="modal-bg1">
-			<img src="images/modal-bg1.png" alt="">
-		</div>
-		<div class="modal-bg2">
-			<img src="images/modal-bg2.png" alt="">
-		</div>
+		</form>			
 	</section>
 
 
@@ -741,6 +801,7 @@
 	<!-- Подключение javascript файлов -->
 	<script src="js/jquery-3.5.0.min.js"></script>
 	<script src="js/fancybox.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 	<script src="js/functions.js"></script>
 	<script src="js/scripts.js"></script>
 
@@ -774,6 +835,16 @@
 			})
 		})
 	</script>
+
+	<script type="text/javascript">
+		var scene = document.getElementById('scene');
+		var parallaxInstance = new Parallax(scene, {
+		limitY : 400,
+		limitX : 0,
+		});
+	</script>
+
+
 
 
 </body>
